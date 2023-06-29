@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 .head{
@@ -51,4 +52,38 @@ form{
 
 #timezone{
     padding-bottom: 20px;
+}
+
+#details{
+    display: flex;
+    justify-content: space-around;
+    
+    background-image:
+    linear-gradient( rgba(29, 28, 28, 0.52), rgba(36, 35, 35, 0.73)),
+    url('content.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+#flag-div{
+    padding-top: 10%;
+}
+#coat-div{
+    padding-top: 8%;
+}
+
+#flag-detail{
+    font-size: 23px;
+    color: #ffff;
+}
+#coat-detail{
+    font-size: 23px;
+    color: #ffff;
+}
+
+#coat img{
+    padding-top: 2%;
+    height: 250px;
+    width: 350px;
 }
