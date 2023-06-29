@@ -24,10 +24,10 @@ function get_API(name) {
         .then(data => {
             console.log(data)
             altName.innerHTML = `
-            ${data[0]["continents"][0]}, ${data[0]["altSpellings"][0]}
+            Continent: ${data[0]["continents"][0]}, ${data[0]["altSpellings"][0]}
             `
-            capital.innerHTML = data[0]["capital"][0]
-            timezone.innerHTML = data[0]["timezones"][0]
+            capital.innerHTML = `Country's capital: ${data[0]["capital"][0]}`
+            timezone.innerHTML = `Country's timezone: ${data[0]["timezones"][0]}`
             borders.innerHTML = `
             <p>Surrounding Countries: ${data[0]["borders"]}<p>
             `
